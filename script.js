@@ -1,42 +1,26 @@
 const root = document.documentElement;
-const toggle = document.getElementById('themeToggle');
-const THEME_KEY = 'prefers-dark';
 
 function applyTheme(isDark){
   if(isDark){
     root.classList.add('dark');
-    if(toggle) toggle.textContent = '☀️ Light Mode';
   }else{
     root.classList.remove('dark');
-    if(toggle) toggle.textContent = '🌙 Dark Mode';
   }
 }
 
-function loadTheme(){
-  const saved = localStorage.getItem(THEME_KEY);
-  if(saved === null){
-    const prefers = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    applyTheme(prefers);
-    return prefers;
-  }
-  const isDark = saved === 'true';
-  applyTheme(isDark);
-  return isDark;
-}
-
-function saveTheme(isDark){
-  localStorage.setItem(THEME_KEY, String(isDark));
+function computeTimeBasedTheme(){
+  const now = new Date();
+  const hour = now.getHours();
+  // Dark between 19:00 and 06:59 inclusive
+  return (hour >= 19 || hour <= 6);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  let isDark = loadTheme();
-  if(toggle){
-    toggle.addEventListener('click', () => {
-      isDark = !isDark;
-      applyTheme(isDark);
-      saveTheme(isDark);
-    });
-  }
+  const isDark = computeTimeBasedTheme();
+  applyTheme(isDark);
+  // Hide toggle if present in DOM from older versions
+  const legacyToggle = document.getElementById('themeToggle');
+  if(legacyToggle){ legacyToggle.style.display = 'none'; }
 
   // Publications rendering
   const pubList = document.getElementById('pub-list');
