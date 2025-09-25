@@ -1,0 +1,209 @@
+Ayman Anwar
+
+PHD CANDiDATE · UNiVERSiTY OF TORONTO
+
+Toronto, ON, Canada.
+
+ (+1) 416‑823‑4672
+
+|  ayman.m.anwar@hotmail.com |  A‑M‑Anwar
+
+|  Ayman‑Mohamed |  Ayman Anwar
+
+Summary
+PhD Candidate at Electrical & Computer Engineering, University of Toronto, with 7+ years of experience in machine/deep
+learning and NLP. Extensive background in health informatics, signal processing, and medical imaging. Strong expertise
+in transformer architectures and LLMs, including training and optimization. Proficient in Python, PyTorch, and C/C++.
+
+Skills
+
+Programming Python, C/C++, and MATLAB.
+
+AI/ML Frameworks PyTorch, TensorFlow, Scikit‑learn, Hugging Face, LangChain, OpenCV, Torchvision.
+Computer Science
+Other Skills
+
+Algorithms, Data Structures, Computer Vision, Artificial Intelligence, Natural Language Processing.
+Frontend(HTML, Bootstrap, CSS3), Backend( Django, Flask), Database (MySQL)
+
+Education
+Electrical and Computer Engineering, University of Toronto (UofT)
+PHD CANDiDATE
+• Tentative graduation date: Nov. 2025.
+• Position: Graduate RA at AI in Health Outcomes Lab at North York General Hospital (NYGH) Supervised by Prof. Ervin Sejdic.
+• Research: AI in healthcare applications (Biosignal analyses, Medical imaging, and NLP for clinical notes).
+
+Toronto, Canada
+
+May 2022 ‑ Now
+
+Faculty of Engineering, Cairo University
+MSC. AND BSC. iN SYSTEMS AND BiOMEDiCAL ENGiNEERiNG
+• MSc. Thesis Title: EEG signal classification using multidimensional CNNs and autoencoders for real‑time BCI. MSc GPA: 3.9.
+• BSc. Thesis Title: Automatic Prosthesis Control Using Human Thoughts. BSc GPA: 3.8.
+• Research: Classical ML, DL, Computational Neuroscience, Brain Computer Interface, and Information Theory.
+
+sep. 2012 ‑ Aug. 2020
+
+Cairo, Egypt
+
+Experience
+
+Innovative Medical Engineering Developments (iMED) Lab.
+RESEARCH ASSiSTANT | AI | ML | PYTHON | PYTORCH | LLMS
+• Developed and evaluated transformer architectures for classification and segmentation of accelerometer signals.
+• Trained and maintained cross‑domain GANs, LSGANs, and CycleGANs to enhance model generalization across diverse datasets.
+• Designed and implemented imbalance‑handling pipelines combining resampling, augmentation, and two‑stage training, leading
+
+Toronto, Canada
+
+May. 2022 ‑ Now
+
+to a significant boost in model performance (e.g., 20% F1‑score) on underrepresented classes.
+
+• Supervised multiple projects leveraging NLP and MLLMs for predictive modeling in healthcare applications.
+
+Electrical and Computer Eng. University of Toronto.
+COURSE INSTRUCTOR AND TEACHiNG ASSiSTANT
+May. 2022 ‑ Now
+• Course Instructor for ECE244: Programming Fundamentals (Fall 2024); developed lecture notes, labs, and assessments covering
+
+Toronto, Canada
+
+core programming concepts in C++.
+
+• Teaching Assistant for ECE1513: Introduction to Machine Learning (Spring 2023 & 2024), APS105: Computer Fundamentals (Spring
+
+2023 & 2024), ECE244: Programming Fundamentals (Fall 2023), and ECE302: Probability and Applications (Fall).
+
+WeCloudData
+AI AND MACHiNE LEARNiNG INSTRUCTOR
+• Taught deep learning and computer vision using PyTorch, including CNNs and Vision Transformer fine‑tuning.
+• Delivered NLP and small LLM training, covering traditional NLP methods and model fine‑tuning.
+• Designed hands‑on Python exercises and notebooks across AI frameworks (PyTorch, TensorFlow) to reinforce practical skills.
+
+September 2023 ‑ December 2024
+
+Toronto, Canada
+
+Pulse for Integrated Solutions.
+MACHiNE LEARNiNG AND DSP ENGiNEER | PYTHON | TENSORFLOW | C++
+• Prepared and preprocessed ECG datasets for segmentation and classification of cardiac abnormalities.
+• Trained CNN and RNN models for ECG signal segmentation and classification, including AF, VF, and ST‑segment deviation.
+• Developed ECG delineation and QRS algorithms meeting IEC60601‑2‑25:2011 and IEC60601‑2‑47:2012 for CE certification.
+• Deployed models in a web application using TensorFlow with a C++ backend for real‑time clinical use.
+• Fine‑tuned and trained BERT models for document classification and entity recognition on clinical notes.
+• Developed NLP pipelines to extract patient state, illness, history, and case severity for recommendation systems.
+
+Cairo, Egypt
+
+July. 2018 April. 2022
+
+SEPTEMBER 25, 2025
+
+AYMAN ANWAR · CURRiCULUM ViTAE
+
+1
+
+Projects
+
+Clinical Report Generation from 3D CT Scans using Multimodal LLMs
+PYTHON | PYTORCH | LLMS | HUGGiNG FACE
+• Trained/Finetuned a Vision Transformer on 3D CT volumes using multitask learning for 18 tasks (CT‑Rate dataset).
+• Applied late fusion to combine ViT embeddings with LLaMA 3.2 prompts for clinical report generation.
+• Evaluated performance using ROUGE and BERTScore; currently exploring alternative fusion techniques and multimodal training.
+
+Toronto, Canada
+
+May 2025 ‑ Now
+
+Novel Two‑Stage Training with Auxiliary Tasks for Imbalanced Data
+PYTHON | PYTORCH | SKLEARN | SELF‑SUPERViSED LEARNiNG
+• Developed a two‑stage approach using a transformers: pretraining on self‑supervised auxiliary tasks for minority classes.
+• Tested in a signal‑processing environment to classify real‑world biomedical signals for swallowing severity detection.
+• Compared performance against resampling, augmentation, and generative‑based techniques. underrepresented classes.
+
+Toronto, Canada
+
+Jan. 2025 ‑ Aug. 2025
+
+Time‑series Transformers for Spatial Information Tracking with Multi‑task Learning
+PYTHON | PYTORCH | TST TRANSFORMERS
+• Developed a novel time‑series transformer architecture to track anatomical structure coordinates as a regression task.
+• Implemented hard‑parameter sharing and soft‑parameter sharing multi‑task learning techniques to improve model performance.
+• Predicted pixel‑level locations from signals with <0.05 error, demonstrating high spatial accuracy for signal data only.
+• Publication: Novel Videographic‑Free Tracking Anatomical Structures Using Accelerometer Signals and Multi‑task Transformers.
+
+Toronto, Canada
+
+May. 2024 ‑ Oct. 2024
+
+Cross‑Domain Medical Signals and Image Translation Using CycleGANs
+PYTHON | TENSORFLOW | TRANSFORMERS | TENSORBOARD
+• Developed a CycleGAN variant combining CNNs and transformer blocks for cross‑domain medical image translation.
+• Implemented stabilization techniques (e.g., spectral normalization, two‑time‑scale update rules) to mitigate GAN instability.
+• Robust transferability: Performance only dropped by <5% in accuracy and other metrics when transferred to a different environ‑
+
+January. 2023 ‑ Oct. 2023
+
+Toronto, Canada
+
+ment.
+
+• Publication:Towards a comprehensive bedside swallow screening protocol using cross‑domain transformation and HRCA.
+
+Automated Skin Burn Segmentation and Severity Classification Using CNNs
+PYTHON | PYTORCH | CNNS | SKLEARN | MATPLOTLiB
+• Supervised a student‑led project developing a tool to segment skin burns and classify severity from medical images.
+• Trained and evaluated multiple CNN architectures (ResNet, EfficientNet, etc.) for improved segmentation and classification.
+• Outperformed prior literature by 20% in accuracy and 15% in F1 score.
+• Publication: Integrating multi‑source data for skin burn classification using deep learning.
+
+Toronto, Canada
+
+Sept. 2023 ‑ Apr. 2024
+
+Smartphone‑Based Intoxication Detection Using Ensemble ML Models
+PYTHON | SKLEARN | SVMS| CLASSiCAL ML MATPLOTLiB
+• Developed a majority‑voting ensemble using SVMs and Random Forests to detect intoxication levels from microphone data.
+• Achieved > 90% accuracy, outperforming baseline models in real‑world testing.
+• Collaborated with Stanford University; Publication: Detection of alcohol intoxication using voice features.
+
+Toronto, Canada
+
+Oct. 2022 ‑ Apr.. 2023
+
+Recent Publications
+ Non‑Invasive Integrated Swallowing Kinematic Analysis Framework Leveraging
+Transformer‑Based Multi‑Task Neural Networks
+A. ANWAR, ET AL. | ELSEViER ‑ COMPUTERS iN BiOLOGY AND MEDiCiNE
+
+ Transformers in biosignal analysis: A review
+A. ANWAR, ET AL. |ELSEViER ‑INFORMATiON FUSiON
+
+ Swallowing assessment using high‑resolution cervical auscultations and
+transformer‑based neural networks
+A. ANWAR, ET AL. | IEEE EMBC 2024
+
+References
+Prof. Ervin Sejdic
+PROFESSOR AT ELECTRiCAL AND COMPUTER ENGiNEERiNG DEPARTMENT, UNiVERSiTY OF TORONTO.
+•  ervin.sejdic@utoronto.ca
+
+PhD. Yassin Khalifa
+DATA SCiENTiST AT CENTER FOR RESEARCH COMPUTiNG AND DATA, UNiVERSiTY OF PiTTSBURGH.
+•  yassin.khalifa@pitt.edu
+
+August 2025
+
+October 2024
+
+July 2024
+
+SEPTEMBER 25, 2025
+
+AYMAN ANWAR · CURRiCULUM ViTAE
+
+2
+
+
