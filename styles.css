@@ -3,12 +3,13 @@
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;background:var(--bg);color:var(--text);}
 .container{max-width:1000px;margin:0 auto;padding:24px}
-.site-header{position:sticky;top:0;background:var(--bg);z-index:10}
+.site-header{background:var(--bg)}
 .header-inner{display:flex;align-items:center;justify-content:space-between;gap:24px}
 .profile{display:flex;align-items:center;gap:16px}
 .avatar{width:96px;height:96px;border-radius:50%;object-fit:cover;border:1px solid var(--border)}
 .name{margin:0;font-size:28px}
-.tagline{margin:4px 0 8px;color:var(--muted)}
+.tagline{margin:4px 0 4px;color:var(--muted)}
+.keywords{margin:4px 0 8px;color:var(--muted);font-size:14px}
 .links a{margin-right:12px;color:var(--link);text-decoration:none}
 .links a:hover{text-decoration:underline}
 .theme-toggle{border:1px solid var(--border);background:var(--card);color:var(--text);padding:8px 12px;border-radius:8px;cursor:pointer}
